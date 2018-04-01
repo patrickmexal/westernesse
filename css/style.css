@@ -4,8 +4,11 @@ body {
     background-attachment: fixed;
 }
 .top-bar img{
-	height: 40px;
-	width: 206.116px;
+	height: 50px;
+	width: 227px;
+}
+.right {
+	padding-top: 11px;
 }
 
 .menu-hover-lines {
@@ -18,7 +21,7 @@ body {
 
 .menu-hover-lines li a {
   padding: 0.75rem 0;
-  color: rgba(19, 246, 114, 0.96)/*(10, 10, 10, 0.5)*/;
+  color: black; /*rgba(19, 246, 114, 0.96)*//*(10, 10, 10, 0.5)*/;
   position: relative;
   margin-left: 1rem;
 }
@@ -63,8 +66,5 @@ body {
 .menu-hover-lines .active a::after {
   width: 100%;
 }
-.menu-hover-lines {
-	margin-top: 5px;
-	margin-left: 10px;
-}
+
 
